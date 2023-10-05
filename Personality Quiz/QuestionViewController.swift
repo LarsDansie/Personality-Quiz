@@ -190,9 +190,9 @@ class QuestionViewController: UIViewController {
         multiSwitch3.isOn = false
         multiSwitch4.isOn = false
         multiLabel1.text = answers[0].text
-        multiLabel1.text = answers[1].text
-        multiLabel1.text = answers[2].text
-        multiLabel1.text = answers[3].text
+        multiLabel2.text = answers[1].text
+        multiLabel3.text = answers[2].text
+        multiLabel4.text = answers[3].text
     }
     
     func updateRangedStack(using answers: [Answer]) {
